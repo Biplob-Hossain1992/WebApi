@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdCourier.Domain.Entities\AdCourier.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Crm.Domain.Entities\Crm.Domain.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis.Extensions.Core" Version="5.5.0" />
+    <PackageReference Include="StackExchange.Redis.Extensions.MsgPack" Version="5.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdCourier.Domain.Entities\AdCourier.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Crm.Domain.Entities\Crm.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Crm.Domain.Interfaces\Crm.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Crm.Services.Interfaces\Crm.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

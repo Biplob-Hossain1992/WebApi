@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Retention.Domain.Interfaces\Retention.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Retention.Services.Interfaces\Retention.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>

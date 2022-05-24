@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="EFCore.BulkExtensions" Version="2.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdCourier.Context\AdCourier.Context.csproj" />
+    <ProjectReference Include="..\AdCourier.Domain.Interfaces\AdCourier.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\AdCourier.Services.Interfaces\AdCourier.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\AdCourier.Services\AdCourier.Services.csproj" />
+  </ItemGroup>
+
+</Project>

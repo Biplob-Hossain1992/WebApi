@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AdCourier.Context\AdCourier.Context.csproj" />
+    <ProjectReference Include="..\AdCourier.Domain.Entities\AdCourier.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Crm.Domain.Entities\Crm.Domain.Entities.csproj" />
+    <ProjectReference Include="..\Crm.Domain.Interfaces\Crm.Domain.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
